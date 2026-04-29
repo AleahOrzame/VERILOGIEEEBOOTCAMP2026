@@ -112,5 +112,3 @@ async def test_project(dut):
         frame = await capture_frame(i)
         frame.save(f"output/frame{i}.png")
 
-
-@cocotb.test()
